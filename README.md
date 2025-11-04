@@ -1,105 +1,97 @@
+# 🧠 AI Agent Dialogue Showcase
+### A Research Project by [Tawana Mohammadi](https://tawana.online)
 
-# 🧠 AI Agent Dialogue Showcase | A Research Project by Tawana Mohammadi
-
-[![Hugging Face Spaces](https://img.shields.io/badge/🤗%20Hugging%20Face-Live%20Demo-blue.svg)](https://huggingface.co/spaces/tawanamohammadi/nous-hermes-chat)
-[![License: MIT](https://img.shields.io/badge/License-MIT-purple.svg)](https://opensource.org/licenses/MIT)
-
-This repository contains the source code for the **AI Agent Dialogue Showcase**, an interactive web application designed to demonstrate the reasoning and task-planning capabilities of modern Large Language Models. It serves as a research portfolio and a practical example of building a sophisticated chatbot UI with modern web technologies.
+[![Hugging Face Spaces](https://img.shields.io/badge/🤗%20Hugging%20Face-Live%20Demo-blue?style=for-the-badge&logo=huggingface)](https://huggingface.co/spaces/tawanamohammadi/nous-hermes-chat)
+[![License: MIT](https://img.shields.io/badge/License-MIT-purple?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
 ---
 
-## 👤 About the Author
 
-This project is created and maintained by **Tawana Mohammadi**, an independent AI researcher, data strategist, and educator.
 
-- **🌐 Website:** [tawana.online](https://tawana.online)
-- **
-- **ORCID:** [0009-0005-6825-6828](https://orcid.org/0009-0005-6825-6728)
-- **
-- **Google Scholar:** [View Profile](https://scholar.google.com/citations?user=VP8O0a4AAAAJ)
-- **
-- **GitHub:** [@tawanamohammadi](https://github.com/tawanamohammadi)
-- **
-- **Web of Science:** [View Profile](https://www.webofscience.com/wos/author/record/ORI-6601-2025)
-- **
-- **Zenodo:** [Research Collection](https://zenodo.org/search?page=1&size=20&q=creator%3ATawana%20Mohammadi)
-- **
-- **Medium:** [AI Ethics & Data Articles](https://tawanamohammadi.medium.com/)
+##  Overview
 
----
+The **AI Agent Dialogue Showcase** is an interactive web application designed to demonstrate the reasoning, multi-step task planning, and conversational capabilities of a modern Large Language Model. This project serves as a public-facing research portfolio for Tawana Mohammadi, showcasing work at the intersection of AI agents, data strategy, and human-computer interaction.
+
+The interface is built to mimic the polished user experience of leading AI platforms like ChatGPT, providing a clean and intuitive way to explore a pre-recorded, complex dialogue with an AI agent.
 
 ## ✨ Key Features
 
-- **ChatGPT-Style UI:** A modern, clean, and responsive user interface that mimics the look and feel of leading AI chat applications.
-- **Multilingual Support:** Fully internationalized with a seamless language switcher for English and Persian (فارسی).
-- **Dynamic Content:** The entire UI, including conversation history and text direction (LTR/RTL), updates instantly based on language selection.
-- **Advanced Markdown Rendering:** Correctly parses and styles code blocks, lists, bold text, and other markdown features for high readability.
-- **SEO Optimized:** Includes comprehensive metadata, Open Graph tags, and JSON-LD structured data for excellent search engine visibility.
-- **Personalized Branding:** Features the author's professional identity, links, and avatar throughout the application.
-
----
+| Feature                 | Description                                                                                                                              | Status |
+| ----------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- | :----: |
+| **ChatGPT-Style UI**    | A modern, responsive interface with a professional sidebar, message bubbles, and a clean layout.                                         |   ✅   |
+| **Full Internationalization** | Seamless language switching between **English** and **Persian (فارسی)** with full RTL support.                                         |   ✅   |
+| **Advanced Markdown**   | Renders code blocks, nested lists, bold text, and other markdown for structured and readable conversations.                          |   ✅   |
+| **Branding & SEO**      | Fully optimized for search engines with comprehensive metadata, Open Graph tags, and JSON-LD structured data for rich search results.     |   ✅   |
+| **Zero Build**          | Runs directly in the browser using modern ES modules and CDNs, requiring no complex build setup.                                        |   ✅   |
 
 ## 🛠️ Technology Stack
 
-- **Frontend:** React 18
-- **Styling:** Tailwind CSS (via CDN)
-- **Language:** TypeScript
-- **Internationalization (i18n):** React Context API
-- **Deployment:** Hugging Face Spaces / GitHub Pages
+-   **Frontend:** [React 18](https://react.dev/)
+-   **Language:** [TypeScript](https://www.typescriptlang.org/)
+-   **Styling:** [Tailwind CSS](https://tailwindcss.com/) (via CDN)
+-   **Internationalization (i18n):** React Context API
+-   **Deployment:** Hugging Face Spaces / GitHub Pages
 
 ---
 
-## 🚀 Deploying on GitHub Pages
+## 👤 Author & Research Profile
 
-You can deploy this application for free using GitHub Pages. Because this project uses a modern browser-based setup without a traditional build step, the process is very straightforward.
+This project is created and maintained by **Tawana Mohammadi**, an independent AI researcher, data strategist, and educator.
+
+| Profile                               | Link                                                                                                 |
+| ------------------------------------- | ---------------------------------------------------------------------------------------------------- |
+| **🌐 Personal Website**               | [tawana.online](https://tawana.online)                                                                 |
+| **ORCID**                             | [0009-0005-6825-6728](https://orcid.org/0009-0005-6825-6728)                                          |
+| **Google Scholar**                    | [View Profile](https://scholar.google.com/citations?user=VP8O0a4AAAAJ)                                |
+| **GitHub**                            | [@tawanamohammadi](https://github.com/tawanamohammadi)                                                 |
+| **Web of Science**                    | [View Profile](https://www.webofscience.com/wos/author/record/ORI-6601-2025)                           |
+| **Zenodo**                            | [Research Collection](https://zenodo.org/search?page=1&size=20&q=creator%3ATawana%20Mohammadi)         |
+| **Medium (AI Ethics)**                | [@tawanamohammadi](https://tawanamohammadi.medium.com/)                                                |
+
+---
+
+## 🚀 Deploy on GitHub Pages
+
+This application is optimized for a simple, no-build deployment on GitHub Pages.
 
 ### Step 1: Create a GitHub Repository
 
-Create a new public repository on your GitHub account. For example, you can name it `ai-chat-showcase`.
+Create a new **public** repository on your GitHub account (e.g., `ai-chat-showcase`).
 
 ### Step 2: Upload Project Files
 
-Upload all the files from this project into your new GitHub repository. Your repository structure should look like this:
+Upload all the project files and folders to your new GitHub repository. The structure must be preserved.
 
 ```
 /
 ├── components/
-│   ├── ChatInput.tsx
-│   ├── ChatView.tsx
-│   ├── Header.tsx
-│   ├── Icons.tsx
-│   └── MessageBubble.tsx
-│   └── Sidebar.tsx
 ├── App.tsx
 ├── index.html
 ├── index.tsx
-├── LanguageContext.tsx
-├── metadata.json
-├── README.md
-├── translations.ts
-└── types.ts
+├── ... (and all other files)
 ```
 
-### Step 3: Enable GitHub Pages
+### Step 3: Configure GitHub Pages
 
-1.  Navigate to your repository on GitHub.
-2.  Click on the **Settings** tab.
-3.  In the left sidebar, click on **Pages**.
-4.  Under the "Build and deployment" section, for the **Source**, select **Deploy from a branch**.
-5.  Set the **Branch** to `main` and the folder to `/(root)`.
-6.  Click **Save**.
+1.  In your repository, go to the **Settings** tab.
+2.  In the left sidebar, select **Pages**.
+3.  Under "Build and deployment", set the **Source** to **Deploy from a branch**.
+4.  Set the **Branch** to `main` and the folder to `/(root)`.
+5.  Click **Save**.
 
+Your project will be deployed in a few minutes and available at `https://<your-username>.github.io/<your-repo-name>/`.
 
+**Important:** The `index.html` file has been configured with a relative path (`./index.tsx`) to the main script, which is essential for it to work correctly on GitHub Pages.
 
-GitHub will start a deployment process. After a minute or two, your project will be live at a URL like:
-`https://<your-username>.github.io/<your-repo-name>/`
+### How to Run Locally
 
----
+To test the application on your local machine, you can use a simple live server.
+1.  If you use VS Code, install the [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) extension.
+2.  Right-click on `index.html` and select "Open with Live Server".
 
 ## 📜 License
 
-This project is open-source and licensed under the **MIT License**. See the LICENSE file for more details.
+This project is licensed under the **MIT License**.
 
-## 🧾 Keywords
-
-Tawana Mohammadi, AI Researcher, AutoGPT, AI Agent, Research Project, LLM, Data Strategist, AI Ethics, Chatbot Showcase, React, TypeScript, Hugging Face, GitHub Pages.
+---
+_Keywords: Tawana Mohammadi, AI Researcher, AutoGPT, AI Agent, Research Project, LLM, Data Strategist, AI Ethics, Chatbot Showcase, React, TypeScript, Hugging Face, GitHub Pages._
