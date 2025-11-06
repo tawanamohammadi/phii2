@@ -56,7 +56,7 @@ export const Sidebar: React.FC = () => {
                     <h2 className="text-xs text-gray-500 font-semibold mb-2 px-2 uppercase tracking-wider">{t('sidebar.professionalPresence')}</h2>
                     <div className="space-y-1">
                         <ProfileLink href="https://tawana.online" icon={<LinkIcon className="w-5 h-5 text-gray-400" />} text={t('sidebar.personalWebsite')} />
-                        <ProfileLink href="https://github.com/TAwR00T" icon={<GithubIcon className="w-5 h-5 text-gray-400" />} text={t('sidebar.github')} />
+                        <ProfileLink href="https://github.com/tawanamohammadi" icon={<GithubIcon className="w-5 h-5 text-gray-400" />} text={t('sidebar.github')} />
                         <ProfileLink href="https://tawanamohammadi.medium.com/" icon={<LinkIcon className="w-5 h-5 text-gray-400" />} text={t('sidebar.medium')} />
                     </div>
                 </div>

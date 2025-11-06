@@ -47,7 +47,7 @@ export const translations = {
         personalWebsite: "وب‌سایت شخصی",
         github: "پروژه‌های گیت‌هاب",
         medium: "مقالات مدیوم",
-        academic: "وابستگی‌های آکademik و سازمانی",
+        academic: "وابستگی‌های آکادمیک و سازمانی",
         university: "دانشگاه مردم (University of the People)",
         badge: "نشان جهت‌یابی (Orientation Badge)",
         newChat: "چت جدید",
