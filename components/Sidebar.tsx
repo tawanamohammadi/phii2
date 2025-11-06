@@ -1,6 +1,6 @@
 import React from 'react';
-import { NewChatIcon, OrcidIcon, ScholarIcon, LinkIcon, GithubIcon, UniversityIcon, BadgeIcon } from './Icons';
-import { useLanguage } from '../LanguageContext';
+import { NewChatIcon, OrcidIcon, ScholarIcon, LinkIcon, GithubIcon, UniversityIcon, BadgeIcon } from './Icons.tsx';
+import { useLanguage } from '../LanguageContext.tsx';
 
 
 interface ProfileLinkProps {

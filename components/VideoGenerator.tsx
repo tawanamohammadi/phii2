@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { GoogleGenAI } from "@google/genai";
-import { useLanguage } from '../LanguageContext';
+import { useLanguage } from '../LanguageContext.tsx';
 
 // This is a simplified check. In a real app, you might need a more robust solution
 // to handle the async nature of the API key selection dialog.

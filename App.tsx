@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react';
-import { Sidebar } from './components/Sidebar';
-import { ChatView } from './components/ChatView';
-import { Header } from './components/Header';
-import { useLanguage } from './LanguageContext';
+import { Sidebar } from './components/Sidebar.tsx';
+import { ChatView } from './components/ChatView.tsx';
+import { Header } from './components/Header.tsx';
+import { useLanguage } from './LanguageContext.tsx';
 
 const App: React.FC = () => {
   const { lang } = useLanguage();

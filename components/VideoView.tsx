@@ -1,5 +1,5 @@
 import React from 'react';
-import { VideoGenerator } from './VideoGenerator';
+import { VideoGenerator } from './VideoGenerator.tsx';
 
 export const VideoView: React.FC = () => {
     return (

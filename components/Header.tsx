@@ -1,6 +1,6 @@
 import React from 'react';
-import { useLanguage } from '../LanguageContext';
-import { ResearchIcon } from './Icons';
+import { useLanguage } from '../LanguageContext.tsx';
+import { ResearchIcon } from './Icons.tsx';
 
 export const Header: React.FC = () => {
     const { lang, setLang, t } = useLanguage();

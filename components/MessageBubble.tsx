@@ -1,6 +1,6 @@
 import React from 'react';
-import { Message } from '../types';
-import { BotIcon } from './Icons';
+import { Message } from '../types.ts';
+import { BotIcon } from './Icons.tsx';
 
 // Helper to parse inline elements like **bold** text
 const ParseInline: React.FC<{ text: string }> = ({ text }) => {

@@ -1,6 +1,6 @@
 import React from 'react';
-import { SendIcon } from './Icons';
-import { useLanguage } from '../LanguageContext';
+import { SendIcon } from './Icons.tsx';
+import { useLanguage } from '../LanguageContext.tsx';
 
 export const ChatInput: React.FC = () => {
     const { t } = useLanguage();
