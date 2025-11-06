@@ -1,0 +1,60 @@
+export const translations = {
+  en: {
+    header: {
+      title: "Agent Core Chat",
+      subtitle: "Reasoning-first Phi-2 for AutoGPT-style tasks",
+    },
+    sidebar: {
+        authorName: "Tawana Mohammadi",
+        authorRole: "AI Researcher • Data Strategist",
+        projectInfo: "This application is an interactive showcase for a research project.",
+        researchProfiles: "Main Research Profiles",
+        orcid: "ORCID Profile",
+        webOfScience: "Web of Science",
+        googleScholar: "Google Scholar",
+        semanticScholar: "Semantic Scholar",
+        scite: "Scite Profile",
+        professionalPresence: "Professional & Creative Presence",
+        personalWebsite: "Personal Website",
+        github: "GitHub Projects",
+        medium: "Medium Articles",
+        academic: "Academic & Institutional",
+        university: "University of the People",
+        badge: "Orientation Badge",
+        newChat: "New Chat",
+    },
+    chatInput: {
+      placeholder: "This chat is for display purposes only.",
+      footer: "This is a static implementation. Functionality is not enabled.",
+    },
+  },
+  fa: {
+    header: {
+      title: "چت هسته ایجنت",
+      subtitle: "Phi-2 با اولویت استدلال برای وظایف سبک AutoGPT",
+    },
+    sidebar: {
+        authorName: "توانا محمدی",
+        authorRole: "پژوهشگر هوش مصنوعی • استراتژیست داده",
+        projectInfo: "این برنامه یک نمایش تعاملی برای یک پروژه تحقیقاتی است.",
+        researchProfiles: "پروفایل‌های اصلی پژوهشی",
+        orcid: "پروفایل ORCID",
+        webOfScience: "وب آو ساینس",
+        googleScholar: "گوگل اسکالر",
+        semanticScholar: "سمانتیک اسکالر",
+        scite: "پروفایل Scite",
+        professionalPresence: "حضور حرفه‌ای و خلاق",
+        personalWebsite: "وب‌سایت شخصی",
+        github: "پروژه‌های گیت‌هاب",
+        medium: "مقالات مدیوم",
+        academic: "وابستگی‌های آکادمیک و سازمانی",
+        university: "دانشگاه مردم (University of the People)",
+        badge: "نشان جهت‌یابی (Orientation Badge)",
+        newChat: "چت جدید",
+    },
+    chatInput: {
+      placeholder: "این چت فقط برای نمایش است.",
+      footer: "این یک پیاده‌سازی ثابت است. عملکرد فعال نیست.",
+    },
+  }
+};

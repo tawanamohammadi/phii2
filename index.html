@@ -34,9 +34,6 @@
       }
     </style>
     
-    <!-- Add Babel to transpile JSX/TSX in the browser for static hosting -->
-    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
-    
     <script type="importmap">
 {
   "imports": {
@@ -74,7 +71,7 @@
 </head>
   <body>
     <div id="root"></div>
-    <!-- Changed type to 'text/babel' to be processed by Babel -->
-    <script type="text/babel" data-type="module" src="./index.tsx"></script>
+    <!-- Load the compiled JavaScript module -->
+    <script type="module" src="./index.js"></script>
   </body>
 </html>
