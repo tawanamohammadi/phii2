@@ -33,7 +33,11 @@
         font-family: 'Inter', 'Vazirmatn', sans-serif;
       }
     </style>
-  <script type="importmap">
+    
+    <!-- Add Babel to transpile JSX/TSX in the browser for static hosting -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    
+    <script type="importmap">
 {
   "imports": {
     "react/": "https://aistudiocdn.com/react@^19.2.0/",
@@ -70,6 +74,7 @@
 </head>
   <body>
     <div id="root"></div>
-    <script type="module" src="./index.tsx"></script>
+    <!-- Changed type to 'text/babel' to be processed by Babel -->
+    <script type="text/babel" data-type="module" src="./index.tsx"></script>
   </body>
 </html>
