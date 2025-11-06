@@ -5,6 +5,8 @@ export const translations = {
     header: {
       title: "AI Agent Dialogue Showcase",
       subtitle: "An Interactive Research Project by Tawana Mohammadi",
+      chat: "Chat",
+      video: "Video",
     },
     sidebar: {
         authorName: "Tawana Mohammadi",
@@ -28,12 +30,38 @@ export const translations = {
     chatInput: {
         placeholder: "This is a static showcase. Input is disabled.",
         footer: "Tawana Mohammadi's AI Research Project. This is a read-only demonstration.",
+    },
+    videoGenerator: {
+      title: "Veo Video Generation",
+      description: "Generate short videos from text prompts using Google's Veo model.",
+      selectKeyButton: "Select API Key",
+      selectKeyDescription: "Please select your API key to use the video generation feature. Billing applies to your selected Google Cloud project.",
+      billingLink: "Learn more about billing",
+      promptLabel: "Prompt",
+      promptPlaceholder: "e.g., A neon hologram of a cat driving at top speed",
+      aspectRatioLabel: "Aspect Ratio",
+      generateButton: "Generate Video",
+      generating: "Generating...",
+      loadingMessages: [
+        "Warming up the digital director's chair...",
+        "Casting pixels for their roles...",
+        "Storyboarding the digital narrative...",
+        "Rendering the first few frames...",
+        "This can take a few minutes, please wait.",
+        "Applying visual effects...",
+        "Finalizing the video composition...",
+      ],
+      error: "An error occurred during video generation. Please try again.",
+      downloadVideo: "Download Video",
+      apiKeyError: "API key validation failed. The key may be invalid or missing permissions. Please select a valid key and try again.",
     }
   },
   fa: {
     header: {
       title: "نمایش گفتگوی عامل هوش مصنوعی",
       subtitle: "یک پروژه تحقیقاتی تعاملی توسط توانا محمدی",
+      chat: "چت",
+      video: "ویدیو",
     },
     sidebar: {
         authorName: "توانا محمدی",
@@ -57,6 +85,30 @@ export const translations = {
     chatInput: {
         placeholder: "این یک نمایش ثابت است. ورودی غیرفعال است.",
         footer: "پروژه تحقیقاتی هوش مصنوعی توانا محمدی. این یک نمایش فقط خواندنی است.",
+    },
+    videoGenerator: {
+      title: "تولید ویدیو با Veo",
+      description: "با استفاده از مدل Veo گوگل، از روی متن ویدیوهای کوتاه بسازید.",
+      selectKeyButton: "انتخاب کلید API",
+      selectKeyDescription: "لطفاً برای استفاده از قابلیت تولید ویدیو، کلید API خود را انتخاب کنید. هزینه‌ها برای پروژه انتخابی شما در Google Cloud اعمال خواهد شد.",
+      billingLink: "بیشتر درباره صورتحساب بدانید",
+      promptLabel: "فرمان",
+      promptPlaceholder: "مثال: یک هولوگرام نئونی از یک گربه در حال رانندگی با سرعت بالا",
+      aspectRatioLabel: "نسبت تصویر",
+      generateButton: "تولید ویدیو",
+      generating: "در حال تولید...",
+      loadingMessages: [
+          "در حال گرم کردن صندلی کارگردان دیجیتال...",
+          "در حال انتخاب پیکسل‌ها برای نقش‌هایشان...",
+          "در حال طراحی استوری‌برد روایت دیجیتال...",
+          "در حال رندر کردن چند فریم اول...",
+          "این فرآیند ممکن است چند دقیقه طول بکشد، لطفاً منتظر بمانید.",
+          "در حال اعمال جلوه‌های بصری...",
+          "در حال نهایی‌سازی ترکیب‌بندی ویدیو...",
+      ],
+      error: "خطایی در هنگام تولید ویدیو رخ داد. لطفاً دوباره تلاش کنید.",
+      downloadVideo: "دانلود ویدیو",
+      apiKeyError: "اعتبارسنجی کلید API ناموفق بود. ممکن است کلید نامعتبر باشد یا مجوزهای لازم را نداشته باشد. لطفاً یک کلید معتبر انتخاب کرده و دوباره تلاش کنید.",
     }
   }
 };

@@ -6,7 +6,8 @@ type Language = 'en' | 'fa';
 interface LanguageContextType {
   lang: Language;
   setLang: (lang: Language) => void;
-  t: (key: string) => string;
+  // FIX: Changed return type to `any` because translations can return arrays (e.g., for loading messages) as well as strings.
+  t: (key: string) => any;
 }
 
 const LanguageContext = createContext<LanguageContextType | undefined>(undefined);
@@ -14,7 +15,8 @@ const LanguageContext = createContext<LanguageContextType | undefined>(undefined
 export const LanguageProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
   const [lang, setLang] = useState<Language>('fa');
 
-  const t = (key: string): string => {
+  // FIX: Changed return type to `any` to match the interface and handle non-string translation values.
+  const t = (key: string): any => {
     const keys = key.split('.');
     let result: any = translations[lang];
     for (const k of keys) {
