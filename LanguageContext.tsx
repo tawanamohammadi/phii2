@@ -13,7 +13,7 @@ interface LanguageContextType {
 const LanguageContext = createContext<LanguageContextType | undefined>(undefined);
 
 export const LanguageProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
-  const [lang, setLang] = useState<Language>('fa');
+  const [lang, setLang] = useState<Language>('en');
 
   // FIX: Changed return type to `any` to match the interface and handle non-string translation values.
   const t = (key: string): any => {

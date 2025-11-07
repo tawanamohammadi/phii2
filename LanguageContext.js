@@ -4,7 +4,7 @@ import { translations } from './translations.js';
 const LanguageContext = createContext(undefined);
 
 export const LanguageProvider = ({ children }) => {
-  const [lang, setLang] = useState('fa');
+  const [lang, setLang] = useState('en');
 
   const t = (key) => {
     const keys = key.split('.');
